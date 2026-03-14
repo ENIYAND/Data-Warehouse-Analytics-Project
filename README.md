@@ -19,7 +19,7 @@ The main objectives of this project are:
 - Build reusable reporting views for analytics and dashboards
 
 ---
-
+'''
 ## Repository Structure
 data-warehouse-analytics
 │
@@ -35,7 +35,7 @@ data-warehouse-analytics
 ├── sales_trend.png
 ├── segmentation.png
 ├── product_analysis.png
-
+'''
 ---
 
 ## Data Model
