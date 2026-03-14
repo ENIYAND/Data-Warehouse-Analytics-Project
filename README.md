@@ -20,6 +20,24 @@ The main objectives of this project are:
 
 ---
 
+## Repository Structure
+data-warehouse-analytics
+│
+├── README.md
+│
+├── sql
+│ └── data_warehouse_analytics.sql
+│
+├── documentation
+│ └── Data_Warehouse_Analytics_Report.pdf
+│
+└── images
+├── sales_trend.png
+├── segmentation.png
+├── product_analysis.png
+
+---
+
 ## Data Model
 
 The project uses a **Star Schema Data Warehouse model**.
@@ -120,3 +138,98 @@ based on spending and customer lifespan.
 ### 6. Customer Reporting View
 
 A reusable analytical view was created:
+
+This view includes:
+
+- customer demographics
+- total orders
+- total sales
+- recency
+- customer lifespan
+- average order value
+- monthly spending
+
+This dataset can be directly used for dashboards.
+
+---
+
+### 7. Product Reporting View
+
+A second analytical view was created:
+
+
+This view provides:
+
+- product sales metrics
+- customer reach
+- product lifecycle metrics
+- product performance segmentation
+
+---
+
+## Key Business Insights
+
+Some of the key insights derived from the analysis include:
+
+- Revenue is heavily concentrated in the **Bikes category**
+- Accessories attract the largest number of customers
+- VIP customers represent a smaller segment but contribute significant revenue
+- Most products fall within lower price ranges
+- Cross-selling opportunities exist between bikes and accessories
+
+---
+
+## Technologies Used
+
+- SQL Server
+- T-SQL
+- Data Warehouse Modeling
+- Analytical SQL
+- GitHub
+
+---
+
+## Repository Structure
+
+This view provides:
+
+- product sales metrics
+- customer reach
+- product lifecycle metrics
+- product performance segmentation
+
+---
+
+## Key Business Insights
+
+Some of the key insights derived from the analysis include:
+
+- Revenue is heavily concentrated in the **Bikes category**
+- Accessories attract the largest number of customers
+- VIP customers represent a smaller segment but contribute significant revenue
+- Most products fall within lower price ranges
+- Cross-selling opportunities exist between bikes and accessories
+
+---
+
+## Technologies Used
+
+- SQL Server
+- T-SQL
+- Data Warehouse Modeling
+- Analytical SQL
+- GitHub
+
+---
+
+---
+
+## Author
+
+**Eniyan D**
+
+Aspiring Data Analyst | SQL | Data Warehousing | Business Analytics
+
+LinkedIn :🔗www.linkedin.com/in/tamil-eniyan-a7116a171
+GitHub :🔗https://github.com/ENIYAND
+
