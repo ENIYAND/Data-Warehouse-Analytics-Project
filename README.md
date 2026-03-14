@@ -230,6 +230,7 @@ Some of the key insights derived from the analysis include:
 
 Aspiring Data Analyst | SQL | Data Warehousing | Business Analytics
 
-LinkedIn :🔗www.linkedin.com/in/tamil-eniyan-a7116a171
-GitHub :🔗https://github.com/ENIYAND
+LinkedIn :🔗 www.linkedin.com/in/tamil-eniyan-a7116a171
+
+GitHub :🔗 https://github.com/ENIYAND
 
