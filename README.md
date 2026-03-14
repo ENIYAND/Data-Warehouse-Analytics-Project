@@ -1,0 +1,122 @@
+# Data Warehouse Analytics Project
+
+## Overview
+
+This project demonstrates an end-to-end SQL-based analytics workflow using a dimensional data warehouse model. The analysis focuses on understanding sales trends, customer behavior, product performance, and business segmentation in order to derive actionable business insights.
+
+The project simulates a real-world analytics environment where transactional sales data is analyzed using SQL to support data-driven decision making.
+
+---
+
+## Objectives
+
+The main objectives of this project are:
+
+- Analyze business performance over time
+- Identify high-performing and low-performing products
+- Understand product contribution to total revenue
+- Segment customers based on purchasing behavior
+- Build reusable reporting views for analytics and dashboards
+
+---
+
+## Data Model
+
+The project uses a **Star Schema Data Warehouse model**.
+
+### Fact Table
+
+- `gold.fact_sales`  
+Contains transactional sales data.
+
+### Dimension Tables
+
+- `gold.dim_customers`  
+Contains customer demographic information.
+
+- `gold.dim_products`  
+Contains product information including category and cost.
+
+---
+
+## Analysis Performed
+
+### 1. Changes Over Time Analysis
+
+Analyzes yearly trends in:
+
+- total sales
+- number of customers
+- quantity sold
+
+This helps understand business growth and demand trends.
+
+---
+
+### 2. Cumulative Sales Analysis
+
+Calculates:
+
+- running total sales
+- moving average price
+
+This helps track revenue accumulation and pricing trends over time.
+
+---
+
+### 3. Product Performance Analysis
+
+Evaluates product-level metrics including:
+
+- total orders
+- total sales
+- total customers
+- product lifecycle
+- revenue efficiency
+
+Products are also segmented into:
+
+- High Performer
+- Mid Range
+- Low Performer
+
+---
+
+### 4. Part-To-Whole Analysis
+
+Determines category contribution to overall business.
+
+Metrics analyzed:
+
+- revenue contribution by category
+- customer distribution across categories
+
+---
+
+### 5. Data Segmentation
+
+Segments both products and customers.
+
+#### Product Segmentation
+Products grouped by cost ranges:
+
+- Below 100
+- 100–500
+- 500–1000
+- Above 1000
+
+#### Customer Segmentation
+
+Customers classified as:
+
+- VIP
+- Regular
+- New
+
+based on spending and customer lifespan.
+
+---
+
+### 6. Customer Reporting View
+
+A reusable analytical view was created:
